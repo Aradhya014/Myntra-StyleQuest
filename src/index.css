@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  /* Myntra Fashion branding colors */
+  --color-myntra-pink: #ff3f6c;
+  --color-myntra-orange: #fd913c;
+}
+
+/* Custom animations and styling utilities */
+@layer utilities {
+  .bg-gradient-myntra {
+    background: linear-gradient(135deg, #ff3f6c 0%, #fd913c 100%);
+  }
+  .text-gradient-myntra {
+    background: linear-gradient(135deg, #ff3f6c 0%, #fd913c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .bg-radial-frosted {
+    background-color: #FFF0F3;
+    background-image: radial-gradient(at 0% 0%, hsla(348,100%,93%,1) 0, transparent 50%), 
+                      radial-gradient(at 50% 0%, hsla(349,100%,96%,1) 0, transparent 50%), 
+                      radial-gradient(at 100% 0%, hsla(350,100%,92%,1) 0, transparent 50%);
+  }
+  .glass-panel {
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    background-color: rgba(255, 255, 255, 0.45);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 32px 64px -16px rgba(255, 63, 108, 0.12);
+  }
+  .glass-card-light {
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    background-color: rgba(255, 255, 255, 0.65);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+  }
+  .glass-card-medium {
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+  .glass-card-heavy {
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+  }
+}
+
+/* Custom Scrollbar for sleek experience */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.03);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 63, 108, 0.2);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 63, 108, 0.4);
+}

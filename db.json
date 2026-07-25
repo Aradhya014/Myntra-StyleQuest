@@ -1,0 +1,162 @@
+{
+  "profile": {
+    "id": "user-myntra-1",
+    "name": "Alara Sharma",
+    "email": "bronika2005@gmail.com",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200",
+    "sparks": 200,
+    "streak": 6,
+    "longestStreak": 12,
+    "streakProgress": 6,
+    "badges": [
+      {
+        "id": "badge-welcome",
+        "name": "Quest Starter",
+        "description": "Began the fashion journey on Myntra Quest.",
+        "icon": "Sparkles",
+        "unlockedAt": "2026-07-25T16:19:06.520Z"
+      }
+    ],
+    "lastActiveDate": "2026-07-25T16:19:06.521Z"
+  },
+  "missions": [
+    {
+      "id": "mis-1",
+      "title": "Brand Explorer: Follow 3 Brands",
+      "emoji": "⭐",
+      "description": "Follow 3 unique fashion brands to discover new styles and unlock AI recommendations.",
+      "category": "follow",
+      "targetCount": 3,
+      "currentCount": 3,
+      "points": 20,
+      "completed": true,
+      "difficulty": "Easy",
+      "iconName": "UserPlus",
+      "personalizedReason": "AI Suggestion: Follow 3 unique brands to get customized style feeds and insider perks."
+    },
+    {
+      "id": "mis-2",
+      "title": "Outfit Mix & Match",
+      "emoji": "🎨",
+      "description": "Create an elegant combination of Top, Bottom, and Shoes.",
+      "category": "outfit",
+      "targetCount": 1,
+      "currentCount": 1,
+      "points": 20,
+      "completed": true,
+      "difficulty": "Medium",
+      "iconName": "Palette",
+      "personalizedReason": "AI Suggestion: Unleash your style using Zara and Roadstar products."
+    },
+    {
+      "id": "mis-3",
+      "title": "Detailed Review",
+      "emoji": "🛍️",
+      "description": "Write a high-quality review of an Indian Wear product.",
+      "category": "review",
+      "targetCount": 1,
+      "currentCount": 1,
+      "points": 20,
+      "completed": true,
+      "difficulty": "Hard",
+      "iconName": "MessageSquareText",
+      "personalizedReason": "AI Suggestion: Let others know how the Anouk Kurta fits."
+    }
+  ],
+  "redemptions": [
+    {
+      "id": "red-1784996542494",
+      "rewardId": "rew-2",
+      "title": "Free Delivery Voucher",
+      "cost": 30,
+      "code": "SAMBALACE30-1630",
+      "redeemedAt": "2026-07-25T16:22:22.494Z"
+    }
+  ],
+  "wishlist": [
+    "snk-1"
+  ],
+  "likes": [],
+  "outfits": [
+    {
+      "id": "outfit-1784996489900",
+      "name": "my outfit",
+      "items": {
+        "top": {
+          "id": "ind-1",
+          "name": "Floral Printed A-Line Kurta",
+          "brand": "Anouk",
+          "category": "Indian Wear",
+          "price": 1299,
+          "originalPrice": 2499,
+          "rating": 4.5,
+          "image": "https://images.unsplash.com/photo-1604436607823-d721dfe2df46?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8a3VydGElMjBmb3IlMjB3b21lbnxlbnwwfHwwfHx8MA%3D%3D",
+          "description": "Elegant floral printed A-line kurta crafted from breathable cotton with three-quarter sleeves."
+        },
+        "bottom": {
+          "id": "wes-12",
+          "name": "High Waist Jeans",
+          "brand": "ONLY",
+          "category": "Western Wear",
+          "price": 2199,
+          "originalPrice": 3599,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=400&q=80",
+          "description": "High-rise skinny jeans with stretch denim."
+        },
+        "shoes": {
+          "id": "snk-2",
+          "name": "Jordan 1 Mid",
+          "brand": "Nike",
+          "category": "Sneakers",
+          "price": 11995,
+          "originalPrice": 13995,
+          "rating": 4.9,
+          "image": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&q=80&w=400",
+          "description": "Inspired by the original Air Jordan, these sneakers combine premium leather construction with iconic basketball heritage."
+        },
+        "accessory": {
+          "id": "bag-3",
+          "name": "Leather Sling Bag",
+          "brand": "Hidesign",
+          "category": "Accessories",
+          "price": 4999,
+          "originalPrice": 6999,
+          "rating": 4.9,
+          "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=400&q=80",
+          "description": "Genuine leather sling bag handcrafted with premium finish."
+        }
+      },
+      "createdAt": "2026-07-25T16:21:29.900Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1784996514095",
+      "productId": "ind-6",
+      "rating": 5,
+      "reviewText": "this product is good",
+      "createdAt": "2026-07-25T16:21:54.095Z",
+      "status": "verified",
+      "aiAnalysis": "The review is simple and positive, confirming the customer's satisfaction with the product which matches their 5-star rating. Thank you for sharing your feedback!"
+    }
+  ],
+  "followedBrands": [
+    "Nike",
+    "Zara",
+    "Adidas",
+    "Puma",
+    "Reebok"
+  ],
+  "exploredProductIds": [],
+  "sharedCount": 0,
+  "lastMissionReset": "Sat Jul 25 2026",
+  "dailyQuest": {
+    "date": "Sat Jul 25 2026",
+    "completed": true,
+    "completedCount": 3,
+    "personalizedMissionGenerated": false
+  },
+  "streakBroken": false,
+  "previousStreak": 0
+}
